@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Virtual Hockey | Multiplayer Ball Game | LordGeeks</title>
+    <link rel="stylesheet" href="css/style.css">
+
+      <!-- Favicons -->
+    <link href="ice-hockey.png" rel="icon">
+    <link href="ice-hockey.png" rel="apple-touch-icon">
+</head>
+<body>
+    <div class="popup-container" id="popup">
+        <div class="popup">
+            <h1>Welcome to Virtual Hockey</h1>
+            <h4>Project Devloped for Computer Networks using Socket.io</h4>
+            <h3 style="align-items: center; justify-content: center; display: flex;">Team Members</h3>
+            <p style="align-items: center; justify-content: center; display: flex;">UMANG THAKUR (RA2011003010294)</p>
+            <p style="align-items: center; justify-content: center; display: flex;">UJJWAL (RA2011003010292)</p>
+            <p style="align-items: center; justify-content: center; display: flex;">PRAYASH GUPTA (RA2011003010287)</p>
+            <p style="align-items: center; justify-content: center; display: flex;">RAJ KALANTRI (RA2011003010285)</p>
+
+            <h3 style="align-items: center; justify-content: center; display: flex;">How to play?</h3>
+            <p>Move with <span class="pink">LEFT, DOWN, RIGHT, UP</span> keys and kick the ball with the <span class="pink">space</span> key.</p><br>
+            <p style="align-items: center; justify-content: center; display: flex;">To kick the ball, press the special kick button when you are near it.</p><br>
+            <p style="align-items: center; justify-content: center; display: flex;">First to 5! Then the game is reset.</p>
+            <br /><br>
+            <p style="align-items: center; justify-content: center; display: flex;">Enter your name bellow and Have fun!</p>
+            <input type="text" id="name" placeholder="Name" autocomplete="off"><br>
+            <input style="color: white; background-color: coral;" type="button" id="btn" value="Play">
+            <br>
+            <small>No one online to play with? Ask a friend to join you!</small>
+        </div>
+    </div>
+    
+  <!--  <footer>Built with <span>♥</span> by <a href="https://github.com/Aaditya188">Team LordGeeks</a></footer> -->
+    
+    <script src="js/socketio.js"></script>
+    <script type="text/javascript" src="js/p5.min.js"></script>
+    <script type="text/javascript" src="js/p5.dom.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
